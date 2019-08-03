@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<a href="">
+            <img alt="pics/NBAlogo.jpg" img align="right" height="140" width="60" src="pics/NBAlogo.jpg" />
+        </a> 
+
+
+<head>
+<title>Top Five NBA Players of All-Time</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">    
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="jordan.html">Michael Jordan</a></li>
+  <li><a href="russell.html">Bill Russell</a></li>
+  <li><a href="magic.html">Magic Johnson</a></li>
+  <li><a href="kareem.html">Kareem Abdul Jabbar</a></li>
+  <li><a href="larrybird.html">Larry Bird</a></li>
+</ul>
+    
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>    
+    
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #C0392B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #F8F9F9;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #000000;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: ""
+      
+
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #21618C;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Top Five NBA Players of All-Time</h2>
+<br>
+<br>
+<br>    
+
+<header>
+    
+  <h3>NBA Legends</h3>
+</header>
+
+<section>
+  
+    
+ <nav>
+    <font size="3" color="blue">To learn more about these individual legends, below are links to there Biography:</font>
+<font color="red"><table>
+  <tr>
+    <th>Ranked</th>
+    <th>NBA Players</th>
+  </tr>
+  <tr>
+    <td><ul>
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>    
+    </ul></td>
+    <td><ul>
+      <li><a href="jordan.html">Michael Jordan</a></li>
+      <li><a href="russell.html">Bill Russell</a></li>
+      <li><a href="magic.html">Magic Johnson</a></li>
+      <li><a href="kareem.html">Kareem Abdul Jabbar</a></li>
+      <li><a href="larrybird.html">Larry Bird</a></li>    
+    </ul></td>
+  </tr>
+</table></font>
+     
+  </nav>
+  
+  <article>
+    <h1>The History of the Game</h1>
+    <p> In 1946, the Basketball Association of America (BAA) was formed. The first game was played in Toronto,Ontario, Canada between the Toronto Huskies and New York Knickerbockers on November 1, 1946. Three seasons later, in 1949, the BAA merged with the National Basketball League to form the National Basketball Association (NBA). By the 1950s, basketball had become a major college sport, thus paving the way for a growth of interest in professional basketball. In 1959, a basketball hall of fame was founded in Springfield, Massachusetts, site of the first game. Its rosters include the names of great players, coaches, referees and people who have contributed significantly to the development of the game. The hall of fame has people who have accomplished many goals in their career in basketball. An upstart organization, the American Basketball Association, emerged in 1967 and briefly threatened the NBA's dominance until the ABA-NBA merger in 1976. Today the NBA is the top professional basketball league in the world in terms of popularity, salaries, talent, and level of competition.</p>
+    
+  </article>
+</section>
+
+<footer>
+  
+    
+    
+    <p><br>
+    <br>
+    <br>
+    <br>
+        The NBA has a rich history, dating back nearly 68 years, full of decorated organizations and players. During that time, we've seen our fair share of greats come and go, but which players in the game's history stand out above the rest? To decide that, we'll look at various criteria including statistics, team success and individual accolades. According to the BleacherReport the top five nba players of all-time are:</p>
+    
+    <p><font size="18"> 5. Larry Bird</font> <a href="larrybird.html">
+            <img alt="pics/birdfacepic.jpg" height="240" width="300" src="pics/birdfacepic.jpg" />
+        </a>Career playoff stats: 23.8 PPG, 10.3 RPG, 6.5 APG <br>Accolades: 3 NBA titles, 2 Finals MVPs, 3 reg. season MVPs   <p/> 
+      
+     <p><font size="18"> 4. Kareem Abdul Jabbar</font> <a href="kareem.html">
+            <img alt="pics/Jabbarface.jpg" height="240" width="300" src="pics/Jabbarface.jpg" />
+        </a>Career playoff stats: 24.3 PPG, 10.5 RPG, 2.4 BPG <br>Accolades: 6 NBA titles, 2 Finals MVPs, 6 reg. season MVPs  <p/> 
+      
+      <p><font size="18"> 3. Magic Johnson</font> <a href="magic.html">
+            <img alt="pics/magicface.jpg" height="240" width="300" src="pics/magicface.jpg" />
+        </a>Career playoff stats: 19.5 PPG, 7.7 RPG, 12.3 APG <br>Accolades: 5 NBA titles, 3 Finals MVPs, 3 reg. season MVPs   <p/> 
+      
+      <p><font size="18"> 2. Bill Russell</font> <a href="russell.html">
+            <img alt="pics/russellface.jpg" height="240" width="250" src="pics/russellface.jpg" />
+        </a>Career playoff stats: 16.2 PPG, 24.9 RPG, 4.7 APG <br>Accolades: 11 NBA titles, 5 reg. season MVPs   <p/> 
+     
+    <p><font size="18"> 1. Michael Jordan</font> <a href="jordan.html">
+            <img alt="pics/Michaelface.jpg" height="240" width="300" src="pics/Michaelface.jpg" />
+        </a>Career playoff stats: 33.4 PPG, 6.4 RPG, 5.7 APG <br>Accolades: 6 NBA titles, 6 Finals MVPs, 5 reg. season MVPs   <p/> 
+</footer>
+
+
+</body>
+</html>
